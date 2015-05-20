@@ -1,0 +1,374 @@
+html{
+	overflow-x: hidden;
+}
+body{
+	background-color: white;
+	overflow-x: hidden;
+	background-image: url(../img/backdrop.jpeg);
+}
+
+header{
+	background-color: #BF9465;
+}
+header div.callus{
+	margin-bottom: -30%;
+	color: #FFF;
+	font-family: Helvetica, serif;
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+	margin-top: 1%;
+	margin-right: 14%;
+}
+header div.callus span.whole{
+	color:#333;
+	font-size: 12px;
+}
+header div.callus span.number{
+	color:#333;
+	text-decoration:underline;
+}
+header nav.navbar{
+	margin-top: 6%;
+	margin-bottom: 0;
+	margin-right: 10%;
+	float:left;
+}
+header nav.navbar, header nav.navbar li.active > a, header nav.navbar li.active > a:hover{
+	background-color: #BF9465;
+}
+
+header nav.navbar li > a{
+	color:#333;
+	font-weight: bolder;
+}
+
+header nav.navbar li.active > a, header nav.navbar li.active > a:hover{
+	color:#fff;
+}
+header .logo > a{
+	float: left;
+	margin-left: 30%;
+	margin-top: 1%;
+	
+	
+}
+p.toptext {
+	font-size: 18px;
+	padding:1%;
+	font-family: Helvetica, serif;
+	font-weight: bold;
+	color: #4A4A4A;
+	text-shadow: 1px 1px #fff;
+}
+.jumbotron {
+	border: 1px solid white;
+	margin-top: -10px;
+	background-color: #BF9465;
+	border-radius: 0;
+	padding: 0;
+}
+.jumbotron {
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-color: #BF9465;
+}
+div.dialog {	
+	border-radius: 6px;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	background-color: #BF9465;
+}
+.jumbotron2 {
+	border: 1px solid white;
+	margin-top: -10px;
+	min-height: 405px;
+	background-color: #E6E8E6;
+	border-radius: 0;
+	padding: 0;
+}
+.jumbotron2 {
+	background-image: url(../img/family-repair.png);
+	background-repeat: no-repeat;
+	background-color: #77917E;
+}
+/*.jumbotron3 {
+	border: 1px solid white;
+	margin-top: -10px;
+	min-height: 405px;
+	background-color: #E6E8E6;
+	border-radius: 0;
+	padding: 0;
+}
+.jumbotron3 {
+	background-image: url(../img/checkherout2.jpeg);
+	background-repeat: no-repeat;
+	background-color: #77917E;
+}
+.jumbotron4 {
+	border: 1px solid white;
+	margin-top: -10px;
+	min-height: 405px;
+	background-color: #E6E8E6;
+	border-radius: 0;
+	padding: 0;
+}
+.jumbotron4 {
+	background-image: url(../img/youngnworried.jpeg);
+	background-repeat: no-repeat;
+	background-color: #77917E;
+}*/
+
+.scrollToTop{
+	width:55px; 
+	height:56px;
+	padding:10px; 
+	text-align:center;
+	display: none;
+	font-weight: bold;
+	color: #DCDEDC;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+
+	background-image: url(../img/to-top.png);
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+h1.title-white{
+	text-shadow:1px 1px #333;
+	font-size: 45px;
+	color:#fff; 
+	font-weight:400; 
+	font-family: Garamond, 'Droid Serif', serif; 
+	font-weight:700; 
+	margin-top:26.5%; 
+	margin-left:6%; 
+	float:left;
+}
+
+h1.title-2 {
+	font-family: Helvetica, serif;
+	font-weight:400;
+	color:#000;
+	font-size:18px;
+}
+h1.title-2 {
+	font-family: Helvetica, serif;
+	font-weight:400;
+	color:#000;
+	font-size:14px;
+}
+section.intro{
+	background-color: #E9E9E9;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+
+section.intro h2 {
+	margin-top:5px;
+}
+section.intro div.container div.col-sm-4 nav.cl-effect-1 h2 {
+	margin-top:5px;
+}
+
+section.intro div.welcome p {
+	font-family: Helvetica, sans-serif;
+	/*font-family: Helvetica, sans-serif;*/
+	padding-right: 5px;
+	padding-bottom: 7px;
+	max-width: 98%;
+	color:black;
+	
+}
+
+section.intro div.container div.col-sm-4 nav.cl-effect-1 li{
+	margin-top:-20px;
+	padding: 0px;
+	
+}
+
+section.intro div.container div.col-sm-4 nav.cl-effect-1 button{
+	margin: 5%;
+}
+section.intro div.welcome a {
+	
+	font-size:12px;
+	padding-left:3%;
+}
+section.intro{
+	background-color: #BF9465; 
+	
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+
+section.Credit_repair h2 {
+	margin-top:5px;
+}
+section.Credit_repair div.container div.col-sm-4 nav.cl-effect-1 h2 {
+	margin-top:5px;
+}
+
+section.Credit_repair div.credit p {
+	font-family: Helvetica, sans-serif;
+	padding-right: 5px;
+	padding-bottom: 7px;
+	max-width: 98%;
+	color:black;
+	
+}
+
+section.Credit_repair div.container div.col-sm-4 nav.cl-effect-1 li{
+	margin-top:-20px;
+	padding: 0px;
+	
+}
+
+section.Credit_repair div.container div.col-sm-4 nav.cl-effect-1 button{
+	margin: 5%;
+}
+section.Credit_repair div.credit a {
+	
+	font-size:12px;
+	padding-left:3%;
+}
+
+section.Credit_repair{
+	background-color:#BF9465;
+	margin-top: 3%;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+section.Credit_repair div.col-sm-4 {
+	border-left: 1px dotted #ABABAB;
+	
+
+}
+p.titletext span.chapter {
+	font-weight: bolder;
+}
+#target label {
+	font-size: 14px;
+	
+}
+#target p {
+	font-size: 12px;
+}
+nav.cl-effect-1 h2{
+	font-family: Helvetica, serif;
+	margin-top: -1px;
+	
+}
+
+div.shadow-drop{
+	box-shadow: 0 10px 20px #333;
+	height: 1px;
+}
+div.main-features{	
+	padding-bottom: 15px;
+}
+
+div.main-features h3{
+	color: #738060;
+	font-family: serif;
+	text-transform: uppercase;
+	 
+}
+div.main-features div.box{
+	margin: 10px 0;
+}
+
+div.main-features div.image{
+	color:#ECECEC;
+	max-width: 100%;
+	text-align: center;
+	margin-bottom: 25px;
+
+}
+
+div.main-features div.image img{
+	width: 70%;
+	box-shadow: 0 10px 25px #878787;
+}
+
+
+div.main-features h4{
+	
+
+}
+
+.dl-horizontal{
+margin-left:-80px;
+
+}
+
+div.feedback{
+	margin-top: 25px;
+	border-top: 1px solid white;
+	color:#696969;
+	margin-left: 5px;
+	margin-top:0px;
+}
+
+div.box p{
+	margin-bottom: 35px;
+}
+
+div.feedback h4,div.main-features h4{
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bolder;
+	color: #424242;
+
+}
+div.feedback p,div.main-features p{
+
+	font-size: 1em;
+
+	color: #424242;
+
+}
+footer {
+	background-color: #BF9465;
+	text-transform: uppercase;
+	color:#fff;
+	padding: 10px;
+	text-align: center;
+}
+footer .footerLink{
+	margin: 3px;
+	color: #fff;
+
+}
+
+div.promo h3{
+	font-style: italic;
+	margin: 6%;
+	text-align: right;
+}
+
+
+@media screen and (max-width: 480px) {
+	div.dialog-container{padding: 0; margin: 0;}
+}
+@media screen and (min-width: 768px) {
+  section.intro div.welcome{border-right: 1px dashed #ABABAB; padding: 25px;}
+  section.intro nav.financial-services{padding: 25px;}
+  div.feedback div.box{	border-right: 1px dashed #ABABAB;border-left: 1px dashed #ABABAB;  }
+  header nav.navbar{float: right;}
+  
+  
+}
+@media screen and (min-width: 992px) {
+	div.dialog-container div.dialog{ margin:1% 1% 5px 0; border: 1px solid #888888;}
+	.jumbotron2{background-color: #BC7B4D;}
+}
+@media screen and (min-width: 1200px) {
+}
+
